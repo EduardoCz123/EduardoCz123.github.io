@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Pumpeaños ✨🎉</title>
+  <link href="styles/styles1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <article class="post">
+    <h1>FELIZ CUMPLEAÑOS FATIMA NAYELI ❤️</h1>
+    <p>Muchas felicidades Corazón de melón, el día de hoy cumples un añito más!! 🥰</p>
+    <p>Espero y que el día de hoy te la puedas pasar muy bien para poder festejar</p>
+    <button id="miBoton">💕 PARA LA CUMPLEAÑERA 💕</button>
+    <h4>Dar clic arriba ヾ(≧▽≦*)o</h4>
+
+    <header>
+      <div class="content">
+        <div class="menu">
+
+
+          <label for="menu">
+            <img src="Imagenes/Snoopy.png" class="menu-icono" alt="Imagenes" />
+          </label>
+          <nav class="navbar">
+            <ul>
+              <li><a href="Felicidades.html">Un Dibujo :3</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+  </article>
+
+  <!-- Contenedor del video, inicialmente oculto -->
+  <div id="videoContainer" style="display: none;">
+    <video width="300" , height="800" controls>
+      <source src="Imagenes/Video.mp4" type="video/mp4">
+    </video>
+
+    <script>
+      // Seleccionar elementos del DOM
+      const boton = document.getElementById("miBoton");
+      const videoContainer = document.getElementById("videoContainer");
+      const youtubeVideo = document.getElementById("youtubeVideo");
+
+      // Muestra u oculta el video al hacer clic en el botón
+      boton.addEventListener("click", () => {
+        if (videoContainer.style.display === "none") {
+          videoContainer.style.display = "block"; // Mostrar el video
+          boton.textContent = "Ocultar video"; // Cambiar texto del botón
+        } else {
+          videoContainer.style.display = "none"; // Ocultar el video
+          detenerVideo(); // Detener reproducción
+          boton.textContent = "Mostrar video"; // Cambiar texto del botón
+        }
+      });
+
+      // Función para detener el video usando la API de YouTube
+      function detenerVideo() {
+        youtubeVideo.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+      }
+    </script>
+
+
+
+  </div>
+  <script src="script.js"></script>
+
+
+
+
+  <section>
+    <figure class="Figura">
+      <img src="Imagenes/Imagen_Juntos.jpg" alt="Imagenes" class="Imagenes1"
+        style="margin-left: 85px; margin-top: 13px;">
+      <figcaption class="Descripción">La Pumpeañera XD</figcaption>
+    </figure>
+  </section>
+
+
+
+
+  <ul>
+    <h2>Razones por la cual hay que festejar tu pumpe 🥰</h2>
+    <h3>
+      <li>Primero que nada porque un día como hoy pero hace 21 años estabas llegando a esta vida llena de sorpresas.
+      </li>
+      <ul style="list-style-type: none;">
+        <li>Te deseo lo mejor en este día especial❣️</li>
+      </ul>
+      <li>Por estar siempre en las buenas y en las malas.</li>
+      <li>Nomas porque si xd.</li>
+      <li>Por tu forma de cuidar y amar a los demas.</li>
+      <li>Por ser una persona especial para nosotros.</li>
+
+    </h3>
+    <section>
+      <figure class="Figura2">
+        <img src="Imagenes/Gato.jpg" alt="Imagenes" class="Imagenes" style="margin-left: 0px; margin-top: 5px;">
+      </figure>
+    </section>
+  </ul>
+
+
+
+
+  <script>
+    alert("⚠️ ¡VIRUS DETECTADO! 🔞");
+  </script>
+
+  <script>
+    alert("Bromita xd 😎");
+  </script>
+
+
+
+
+
+
+</body>
+
+
+
+</html>

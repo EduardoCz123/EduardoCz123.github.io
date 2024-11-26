@@ -1,0 +1,139 @@
+h1{
+    color: red;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    text-align: center;
+    size-adjust: center;
+    text-size-adjust: center;
+    margin-left: 17px;
+}
+
+/* styles.css */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #87ceeb, #ffffff);
+    overflow: hidden;
+}
+
+.garden {
+    display: flex;
+    gap: 4rem;
+    padding-bottom: 50px;
+}
+
+.flower {
+    position: relative;
+    width: 83px;
+    height: 150px;
+    animation: sway 4s infinite ease-in-out;
+}
+
+.flower1 {
+    position: relative;
+    width: 83px;
+    height: 150px;
+    animation: sway 4s infinite ease-in-out;
+}
+
+.flower2 {
+    position: relative;
+    width: 83px;
+    height: 150px;
+    margin-left: 80px;
+    animation: sway 4s infinite ease-in-out;
+}
+
+.flower3 {
+    position: relative;
+    width: 83px;
+    height: 150px;
+    animation: sway 4s infinite ease-in-out;
+}
+
+.stem {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 10px;
+    height: 150px;
+    background: linear-gradient(to bottom, #228B22, #2E8B57);
+    transform: translateX(-50%);
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.petal {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    background: radial-gradient(circle, #FF69B4, #FF1493);
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.petal1 {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+    transform-origin: bottom center;
+}
+
+.petal2 {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(60deg);
+    transform-origin: bottom center;
+}
+
+.petal3 {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(120deg);
+    transform-origin: bottom center;
+}
+
+.petal4 {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+    transform-origin: bottom center;
+}
+
+.petal5 {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(240deg);
+    transform-origin: bottom center;
+}
+
+.petal6 {
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(300deg);
+    transform-origin: bottom center;
+}
+
+.center {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle, yellow, orange);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes sway {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+}

@@ -1,0 +1,118 @@
+h1 {
+    color: #1f043f;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    color: #560869;
+    font-family: 'Arial Black', sans-serif;
+    /* Tipo de Letra */
+    text-align: center;
+    /* Alinear texto */
+}
+
+body {
+    /*Fondo*/
+    font-size: 16px;
+    font-family: 'Verdana', sans-serif;
+    background-color: #249296;
+    /* Cambia este código hexadecimal */
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+vertical-align: baseline;
+}
+
+
+img{
+    width: 350px;
+    border: 10px double #0f1014;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)
+}
+
+figcaption {
+    color: rgb(70, 10, 65);
+    font-family: 'Arial Black', 'sans-serif';
+    text-align: center;
+}
+
+li {
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    color: rgb(104, 4, 65);
+    justify-content: center;
+    line-height: 1.4;
+
+}
+
+button {
+    color: rgb(250, 250, 250);
+    font-family: 'Arial Black', 'sans-serif';
+    width: 250px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #000103;
+    /* Verde más oscuro */
+    border-bottom: red;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    margin-left: -70px;
+    margin-top: 0px;
+}
+
+h4 {
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+#videoContainer {
+    display: none;
+    /* Oculta el video inicialmente */
+    margin-top: 20px;
+    text-align: center;
+}
+
+iframe {
+    width: auto;
+    max-width: 560px;
+    /* Ancho máximo del iframe */
+    height: 315px;
+    /* Altura del iframe */
+    border: none;
+    /* Sin borde */
+    margin-left: -495px;
+    margin-top: 300px;
+}
+
+video {
+    width: 300px;
+    height: 220px;
+    margin-left: -280px;
+    margin-top: 332px;
+}
+
+img.Imagenes{
+    border-radius: 15px;
+    border: 10px double #0f1014;
+}
+
+img.menu-icono{
+    border-radius: 15px;
+    border: 5px double #0f1014;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: -18px;
+}
+
+a{
+    font-family: 'Arial Black', 'sans-serif';
+    color: black;
+}

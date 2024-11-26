@@ -1,0 +1,55 @@
+/* Agrupación de selectores */
+h1, h2 {
+    color: #2c3e50;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Herencia */
+body {
+    font-size: 16px;
+    font-family: 'Verdana', sans-serif;
+    color: #47349e;
+    background-color: #ffe88c; /* Cambia este código hexadecimal */
+}
+
+/* Estilos específicos */
+.info p, .contacto p {
+    margin: 10px 0;
+}
+
+.nombre {
+    font-weight: bold;
+}
+
+.edad {
+    color: #3cace7;
+}
+
+.profesion {
+    font-style: italic;
+}
+
+a {
+    color: #290995;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos */
+.post {
+    border-bottom: 6px solid #8840cc; /* Borde */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.fecha {
+    color: #c94001;
+    font-size: 14px;
+}
+
+.post p {
+    line-height: 1.6;
+}
